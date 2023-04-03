@@ -91,6 +91,7 @@
 #let leftarrow = {$arrow.l$}
 #let Leftarrow = {$arrow.l.double$}
 #let rightarrow = {$arrow.r$}
+#let to = {$arrow.r$}
 #let Rightarrow = {$arrow.r.double$}
 #let leftrightarrow = {$arrow.l.r$}
 #let Leftrightarrow = {$arrow.l.r.double$}
@@ -225,7 +226,6 @@
 // tanh is predefined
 // tg is predefined
 
-
 	// Delimiters
 #let lfloor = {$⌊$}
 #let rfloor = {$⌋$}
@@ -246,7 +246,7 @@
 #let overleftarrow(input) = {$accent(#input, arrow.l)$}
 #let widehat(input) = {$accent(#input, hat)$}
 #let overrightarrow(input) = {$accent(#input, arrow.r)$}
-// Typst's \root(n, x) = LaTeX's \sqrt[n]{x} 
+// Typst's  root(n, x) = LaTeX's \sqrt[n]{x} 
 // Typst's \frac(a, b) = LaTeX's \frac{a}{b}
 
 	// AMS Delimiters
