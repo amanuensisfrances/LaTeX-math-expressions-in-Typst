@@ -3,3 +3,6 @@ A collection of Typst math commands/shortcuts defined for the purpose of having 
 
 # How to Use
 Either simply copy the contents of `LaTeX-math-expressions-in-Typst.typ` into your `*.typ` file or use the `import` Typst command.
+
+## Caveat
+I tried to create makeshift commands for some of the less common math symbols listed in the [`maths-symbols` package documentation](https://mirrors.ctan.org/info/symbols/math/maths-symbols.pdf) which don't have Unicode character equivalents but the results are still far from being ideal.
